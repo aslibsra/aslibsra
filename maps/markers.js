@@ -51,7 +51,7 @@ var markers = [
      "name": "Bulgaria",
      "case_per_100000": 64.47,
      "lat": 36.204824,
-     "lng": 138.252924
+     "lng": 38.252924
    },
    {
      "name": "Croatia",
