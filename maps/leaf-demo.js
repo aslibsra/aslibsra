@@ -14,8 +14,8 @@ L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 var myURL = jQuery( 'script[src$="leaf-demo.js"]' ).attr( 'src' ).replace( 'leaf-demo.js', '' )
 
 var myIcon = L.icon({
-  iconUrl: myURL + 'images/death24.png',
-  iconRetinaUrl: myURL + 'images/death48.png',
+  iconUrl: myURL + 'images/covid30.png',
+  iconRetinaUrl: myURL + 'images/covid50.png',
   iconSize: [24, 24],
   iconAnchor: [9, 21],
   popupAnchor: [0, -14]
