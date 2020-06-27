@@ -16,7 +16,7 @@ var myURL = jQuery( 'script[src$="leaf-demo.js"]' ).attr( 'src' ).replace( 'leaf
 var myIcon = L.icon({
   iconUrl: myURL + 'images/covid30.png',
   iconRetinaUrl: myURL + 'images/covid50.png',
-  iconSize: [24, 24],
+  iconSize: [50, 50],
   iconAnchor: [9, 21],
   popupAnchor: [0, -14]
 })
