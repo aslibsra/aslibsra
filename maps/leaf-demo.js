@@ -1,9 +1,9 @@
 // See post: http://asmaloney.com/2014/01/code/creating-an-interactive-map-with-leaflet-and-openstreetmap/
 
 var map = L.map( 'map', {
-  center: [20.0, 5.0],
+  center: [47.577, 14.502],
   minZoom: 4,
-  zoom: 10
+  zoom: 4
 })
 
 L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -16,7 +16,7 @@ var myURL = jQuery( 'script[src$="leaf-demo.js"]' ).attr( 'src' ).replace( 'leaf
 var myIcon = L.icon({
   iconUrl: myURL + 'images/death24.png',
   iconRetinaUrl: myURL + 'images/death48.png',
-  iconSize: [30, 30],
+  iconSize: [24, 24],
   iconAnchor: [9, 21],
   popupAnchor: [0, -14]
 })
