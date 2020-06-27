@@ -128,7 +128,7 @@ var markers = [
      "name": "Iceland",
      "case_per_100000": 513.18,
      "lat": 64.963051,
-     "lng": -59.543198
+     "lng": -18.80900
    },
    {
      "name": "Ireland",

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
   <head profile="http://gmpg.org/xfn/11">
-    <title>Leaflet Example - asmaloney.com</title>
+    <title>Covid-19</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
@@ -14,13 +14,18 @@
     <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
       integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
       crossorigin=""></script>
-	 <style>#map { height : 80vh; width : 100vw; top : 20vh; left : 0; position : right; z-index : 200; }</style>
+	<style>#map { height : 80vh; width : 100vw; top : 10vh; left : 0; position : right; z-index : 200; }</style>
+	<img src="maps/images/covid_header.png" alt="Covid-19" height="100" style="float:right;width:75;height:75;">
+	  <img src="maps/images/covid_header.png" alt="Covid-19" height="100" style="float:left;width:75;height:75;">
   </head>
 
-  <body>
-    <h1>Leaflet Example</h1>
+  <body style="background-color:lightgray;">
+	  
+    <h1 style="font-family:verdana" ><center>Total Covid-19 Case Per 100.000 Population</center></h1>
 
-    <p>Here's an interactive map indicating the countries I've either lived in or travelled through for a month or more.
+    <p><center>Here's an interactive map indicating the total Covid-19 case per 100.000 population for every country in Europe. </br>
+		GIS Project created by Aslı Büşra Çoban and Mert Ayduman.
+		<a href="https://qap.ecdc.europa.eu/public/extensions/COVID-19/COVID-19.html"> "Data Source"</a></center>
 
     <div id="map"></div>
 
