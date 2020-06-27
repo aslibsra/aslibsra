@@ -2,8 +2,8 @@
 
 var map = L.map( 'map', {
   center: [20.0, 5.0],
-  minZoom: 2,
-  zoom: 2
+  minZoom: 4,
+  zoom: 10
 })
 
 L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -16,7 +16,7 @@ var myURL = jQuery( 'script[src$="leaf-demo.js"]' ).attr( 'src' ).replace( 'leaf
 var myIcon = L.icon({
   iconUrl: myURL + 'images/death24.png',
   iconRetinaUrl: myURL + 'images/death48.png',
-  iconSize: [29, 24],
+  iconSize: [30, 30],
   iconAnchor: [9, 21],
   popupAnchor: [0, -14]
 })
